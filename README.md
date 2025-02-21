@@ -7,3 +7,4 @@ A PyTorch implementation of LiteSalNet for Remote Sensing Salient Object Detecti
 # Requirements
 - Python 3.7
 - PyTorch 1.9.0
+- imageio 2.22.2
