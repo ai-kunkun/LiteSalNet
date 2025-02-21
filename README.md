@@ -10,3 +10,6 @@ A PyTorch implementation of LiteSalNet for Remote Sensing Salient Object Detecti
 
 # Saliency maps
 ![LiteSalNet Architecture](https://github.com/ai-kunkun/LiteSalNet/blob/main/image/table.png)
+
+# Evaluation Tool
+You can use the [evaluation tool (MATLAB version)](https://github.com/MathLee/MatlabEvaluationTools) to evaluate the above saliency maps.
