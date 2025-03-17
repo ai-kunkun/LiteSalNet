@@ -7,7 +7,7 @@ A PyTorch implementation of LiteSalNet for Remote Sensing Salient Object Detecti
     </a>
     <a href='https://ai-kunkun.github.io/Niagara_page/'>
       <img src='https://img.shields.io/badge/Project-Page-orange?style=for-the-badge&logo=Google%20chrome&logoColor=white&labelColor=D35400' alt='Project Page'></a>
-    <a href="https://github.com/xianzuwu/Niagara">
+    <a href='https://github.com/ai-kunkun/LiteSalNet'>
       <img src='https://img.shields.io/badge/Code-Github-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=181717' alt='Code Github'></a> 
       <br>
   </p>
