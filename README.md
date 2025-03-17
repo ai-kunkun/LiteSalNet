@@ -1,7 +1,6 @@
 # 📢 LiteSalNet
 A PyTorch implementation of LiteSalNet for Remote Sensing Salient Object Detection.
 
-  <!-- 第一个按钮：Project Page 颜色 -->
   <a href="https://ai-kunkun.github.io/Niagara_page/"
      style="
        display: inline-block;
@@ -12,23 +11,6 @@ A PyTorch implementation of LiteSalNet for Remote Sensing Salient Object Detecti
        border-radius: 4px;
        margin-right: 1rem;
      ">
-    Check out more visual results
-  </a>
-</p>
-<p align="center" style="margin: 1rem 0;">
-  <!-- 第二个按钮：Arxiv 颜色 -->
-  <a href="https://ai-kunkun.github.io/Niagara_page/"
-     style="
-       display: inline-block;
-       background-color: #A0D468;
-       color: #fff;
-       padding: 0.5rem 1rem;
-       text-decoration: none;
-       border-radius: 4px;
-     ">
-    Check out more numerical results
-  </a>
-</p>
 # 🦉 Network Architecture
 ![LiteSalNet Architecture](https://github.com/ai-kunkun/LiteSalNet/blob/main/image/LiteSalNet.png)
 
