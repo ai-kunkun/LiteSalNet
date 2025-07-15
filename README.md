@@ -46,7 +46,7 @@ Download the following pre-trained model and put them in ./models/LiteSalNet/, t
 
 # 🎆 Result
 Download
-Download the LiteSalnet model [result graph](https://pan.baidu.com/s/1w-jO8Y9HuY72X94NsZceww?pwd=AZXD) (code:AZXD)
+Download the LiteSalNet model [result graph](https://pan.baidu.com/s/1w-jO8Y9HuY72X94NsZceww?pwd=AZXD) (code:AZXD)
 
 # 🛠️ Evaluation Tool
 You can use the [evaluation tool (MATLAB version)](https://github.com/MathLee/MatlabEvaluationTools) to evaluate the above saliency maps.
