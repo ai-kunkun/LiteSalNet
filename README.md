@@ -33,5 +33,9 @@ Run train_LiteSalNet.py.
 # 🧩 Pre-trained model and testing
 Download the following pre-trained model and put them in ./models/LiteSalNet/, then run test_LiteSalNet.py. 
 
+# 🎆 Result
+Download
+Download the LiteSalnet model [result graph](https://pan.baidu.com/s/1w-jO8Y9HuY72X94NsZceww?pwd=AZXD) (code:AZXD)
+
 # 🛠️ Evaluation Tool
 You can use the [evaluation tool (MATLAB version)](https://github.com/MathLee/MatlabEvaluationTools) to evaluate the above saliency maps.
