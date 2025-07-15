@@ -65,20 +65,17 @@ class MultiHeadAttention(nn.Module):
         return torch.matmul(self_attn, value), self_attn
 
     def forward(self, query, key, value, mask=None):
-        # Flatten spatial dimensions and permute
+
         query = query.flatten(start_dim=2).permute(0, 2, 1)
         key = key.flatten(start_dim=2).permute(0, 2, 1)
         value = value.flatten(start_dim=2).permute(0, 2, 1)
         
-        # Project inputs
         query = self.input_projection(query)
         key = self.input_projection(key)
         value = self.input_projection(value)
         
-        # Apply self-attention
         x, self.attn = self.self_attention(query, key, value, mask=mask)
         
-        # Reshape output
         x = x.permute(0, 2, 1)
         embedding_dim = x.size(-1)
         d_k = h = int(embedding_dim ** 0.5)
@@ -575,7 +572,7 @@ class MSPDF(nn.Module):
         x_edg4_n = self.mtg(x_sal4, x_edg4, x_ske4) + x_edg4
         x_ske4_n = self.mtg(x_sal4, x_edg4, x_ske4) + x_ske4
 
-# Level 3 processing
+       # Level 3 processing
         x_sal3 = self.conv_cat_blocks[3](torch.cat((x_sal3, self.upsample_blocks[3](x_sal4_n, x_sal3)), 1))
         x_edg3 = self.conv_cat_blocks[4](torch.cat((x_edg3, self.upsample_blocks[4](x_edg4_n, x_edg3)), 1))
         x_ske3 = self.conv_cat_blocks[5](torch.cat((x_ske3, self.upsample_blocks[5](x_ske4_n, x_ske3)), 1))
