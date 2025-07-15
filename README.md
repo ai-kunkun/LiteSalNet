@@ -4,6 +4,11 @@ A PyTorch implementation of LiteSalNet for Remote Sensing Salient Object Detecti
 [TGRS has accepted this work!!!](https://ieeexplore.ieee.org/document/10945380)
 
 We updated the LiteSalNet result graph！
+
+We updated the LiteSalNet main model code！
+
+The training code can be found at [SeaNet](https://github.com/MathLee/SeaNet). You only need to modify the model output. Dr.Li has done a very standard job in this regard.
+
 <p align="center">
   </br>
     <a href="https://arxiv.org/">
@@ -41,3 +46,14 @@ Download the LiteSalnet model [result graph](https://pan.baidu.com/s/1w-jO8Y9HuY
 
 # 🛠️ Evaluation Tool
 You can use the [evaluation tool (MATLAB version)](https://github.com/MathLee/MatlabEvaluationTools) to evaluate the above saliency maps.
+
+# Citation
+        @ARTICLE{10945380,
+                author = {Ai, Zhenxin and Luo, Huilan and Wang, Jianqin},
+                title = {A Lightweight Multistream Framework for Salient Object Detection in Optical Remote Sensing},
+                journal = {IEEE Transactions on Geoscience and Remote Sensing},
+                volume = {63},
+                year = {2025},
+                doi = {10.1109/TGRS.2025.3555647},
+                }
+                
