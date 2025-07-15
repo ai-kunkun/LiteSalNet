@@ -51,7 +51,7 @@ Download the LiteSalnet model [result graph](https://pan.baidu.com/s/1w-jO8Y9HuY
 # 🛠️ Evaluation Tool
 You can use the [evaluation tool (MATLAB version)](https://github.com/MathLee/MatlabEvaluationTools) to evaluate the above saliency maps.
 
-# Citation
+# 📖 Citation
         @ARTICLE{10945380,
                 author = {Ai, Zhenxin and Luo, Huilan and Wang, Jianqin},
                 title = {A Lightweight Multistream Framework for Salient Object Detection in Optical Remote Sensing},
