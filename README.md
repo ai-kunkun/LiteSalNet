@@ -10,15 +10,19 @@ We updated the LiteSalNet main model code！
 The training code can be found at [SeaNet](https://github.com/MathLee/SeaNet). You only need to modify the model output. Dr.Li has done a very standard job in this regard.
 
 <p align="center">
-  </br>
-    <a href="https://arxiv.org/">
-      <img src='[https://img.shields.io/badge/Paper-Arxiv-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=66cc00&color=94DD15](https://ieeexplore.ieee.org/document/10945380)' alt='Paper PDF'></a>
-    <a href='https://ai-kunkun.github.io/Niagara_page/'>
-      <img src='https://img.shields.io/badge/Project-Page-orange?style=for-the-badge&logo=Google%20chrome&logoColor=white&labelColor=D35400' alt='Project Page'></a>
-    <a href='https://github.com/ai-kunkun/LiteSalNet'>
-      <img src='https://img.shields.io/badge/Code-Github-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=181717' alt='Code Github'></a> 
-      <br>
-  </p>
+  <br>
+  <a href="https://ieeexplore.ieee.org/document/10945380">
+    <img src="https://img.shields.io/badge/Paper-IEEE-green?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=66cc00&color=94DD15" alt="Paper PDF">
+  </a>
+  <a href="https://ai-kunkun.github.io/Niagara_page/">
+    <img src="https://img.shields.io/badge/Project-Page-orange?style=for-the-badge&logo=Google%20chrome&logoColor=white&labelColor=D35400" alt="Project Page">
+  </a>
+  <a href="https://github.com/ai-kunkun/LiteSalNet">
+    <img src="https://img.shields.io/badge/Code-Github-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="Code Github">
+  </a>
+  <br>
+</p>
+
   
 # 🦉 Network Architecture
 ![LiteSalNet Architecture](https://github.com/ai-kunkun/LiteSalNet/blob/main/image/LiteSalNet.png)
