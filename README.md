@@ -2,6 +2,8 @@
 A PyTorch implementation of LiteSalNet for Remote Sensing Salient Object Detection.
 
 [TGRS has accepted this work!!!](https://ieeexplore.ieee.org/document/10945380)
+
+We updated the LiteSalNet result graph！
 <p align="center">
   </br>
     <a href="https://arxiv.org/">
