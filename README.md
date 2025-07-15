@@ -60,4 +60,5 @@ You can use the [evaluation tool (MATLAB version)](https://github.com/MathLee/Ma
                 year = {2025},
                 doi = {10.1109/TGRS.2025.3555647},
                 }
-                
+
+If you find this work useful for your research, feel free to cite it using the format above.
